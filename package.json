@@ -9,9 +9,11 @@
     "build": "vp run -r build",
     "ready": "vp check && vp run -r test && vp run -r build",
     "dev": "vp run website#dev",
+    "release": "bumpp --commit \"release: v%s\" --all --push --tag",
     "prepare": "vp config"
   },
   "devDependencies": {
+    "bumpp": "catalog:",
     "vite": "catalog:",
     "vite-plus": "catalog:"
   },

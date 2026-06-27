@@ -6,6 +6,9 @@ settings:
 
 catalogs:
   default:
+    bumpp:
+      specifier: ^11.1.0
+      version: 11.1.0
     vite-plus:
       specifier: 0.1.24
       version: 0.1.24
@@ -18,6 +21,9 @@ importers:
 
   .:
     devDependencies:
+      bumpp:
+        specifier: 'catalog:'
+        version: 11.1.0
       vite:
         specifier: npm:@voidzero-dev/vite-plus-core@0.2.0
         version: '@voidzero-dev/vite-plus-core@0.2.0(@types/node@25.9.4)(jiti@2.7.0)(typescript@6.0.3)(yaml@2.9.0)'
